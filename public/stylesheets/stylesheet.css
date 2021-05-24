@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  background-color: lightcyan;
+  position: relative;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.main-body {
+  min-height: 100vh;
+}
+
+a:hover {
+  color: skyblue;
+}
+
+a {
+  text-decoration: none;
+  color: lightpink;
+  font-weight: bold;
+  transition: color .1s;
+}
+
